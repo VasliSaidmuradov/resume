@@ -1,0 +1,24 @@
+@import './Color.scss';
+
+.Content {
+  padding-top: 10px;
+
+  &__text {
+    margin: 0;
+    color: $text_color;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: .3rem;
+  }
+
+  &__icon {
+    color: $dark-grey;
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $link-color;
+  }
+}

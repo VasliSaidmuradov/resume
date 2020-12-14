@@ -1,0 +1,10 @@
+@import '../Color.scss';
+
+.MainContent {
+  width: 100%;
+  // height: 100%;
+  background-color: #fcfcfc;
+  color: #222;
+  padding: 10px 20px;
+  color: $text-color;
+}

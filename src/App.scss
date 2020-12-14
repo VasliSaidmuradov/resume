@@ -1,0 +1,17 @@
+.App {
+  max-width: 850px;
+  min-height: calc(100vh - 280px);
+  margin: 0 auto;
+
+  &-link {
+    color: #61dafb;
+  }
+
+  &__content {
+    display: flex;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  
+}
