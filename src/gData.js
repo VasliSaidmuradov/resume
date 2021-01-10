@@ -58,7 +58,7 @@ const gData = {
       'Postman',
       'Figma',
       'Trello, Jira',
-      'English B1',
+      'English B1 (Low Intermediate)',
     ]
   },
   experience: {
@@ -68,7 +68,7 @@ const gData = {
         title: 'Creative',
         site: 'https://crtweb.ru/',
         position: 'Frontend developer',
-        date: 'Апрель 2020 - Октябрь 2020',
+        date: 'Октябрь 2020 - по настоящее время',
         list: [
           'Верстка макетов из figma',
           'Рефакторинг кода и bugfix',
