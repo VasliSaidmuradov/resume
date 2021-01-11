@@ -1,7 +1,7 @@
 .FullName__wrap {
   color: #ddd;
   text-transform: uppercase;
-  z-index: 1
+  z-index: 1;
 }
 
 .FullName {
@@ -13,4 +13,16 @@
 .Position {
   font-size: 1.5rem;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .FullName__wrap {
+    text-align: center;
+  }
+  .FullName {
+    font-size: 1.5rem;
+  }
+  .Position {
+    font-size: 1.2rem;
+  }
 }
