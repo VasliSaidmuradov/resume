@@ -59,17 +59,28 @@ const gData = {
       "Postman, Swagger",
       "Figma",
       "Trello, Jira, Slack",
-      "English B1 (Low Intermediate)",
+      "English B1 (Pre-intermediate)",
     ],
   },
   experience: {
     title: "",
     list: [
       {
+        title: "Kaspi.kz",
+        site: "https://kaspi.kz/",
+        position: "Frontend developer",
+        date: "Июнь 2021 - по настоящее время",
+        list: [
+          "Разработка инструментов для партнеров и менеджеров",
+          "Верстка макетов из figma",
+          "Рефакторинг кода и bugfix",
+        ],
+      },
+      {
         title: "Creative",
         site: "https://crtweb.ru/",
         position: "Frontend developer",
-        date: "Октябрь 2020 - по настоящее время",
+        date: "Октябрь 2020 - Июнь 2021",
         list: [
           "Верстка макетов из figma",
           "Рефакторинг кода и bugfix",
