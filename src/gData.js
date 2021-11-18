@@ -30,26 +30,26 @@ const gData = {
       "г.Алматы, Казахстан",
       `Опыт разработки ${getWorkExperienceTerm()}+ года`,
       { text: "GitHub", link: "https://github.com/VasliSaidmuradov" },
+      { text: "LinkedIn", link: "https://www.linkedin.com/in/vasli-saidmuradov/" },
+      { text: "Leetcode", link: "https://leetcode.com/VasliSaidmuradov/" },
       { text: "Codewars", link: "https://www.codewars.com/users/Vasli" },
     ],
   },
   hobby: {
     title: "",
     list: [
-      "🏃‍♂️ Бег (Trail running)",
+      "⛷️ Учусь кататься на лыжах",
       "🏓 Настольный теннис",
-      "⛷️🏂 Учусь кататься на лыжах и сноуборде",
-    ],
+      "🏃‍♂️ Бег (Trail running)",
+    ], 
   },
   skills: {
     title: "",
     list: [
       "JavaScript",
-      "Vue.js",
-      "Nuxt.js",
-      "React.js (изучаю)",
-      // 'Next',
-      "Gatsby (изучаю)",
+      "Vue",
+      "Nuxt",
+      "React (изучаю)",
       "TypeScript (изучаю)",
       "Git (GitHub, GitLab, Bitbucket)",
       "Webpack",
@@ -112,13 +112,6 @@ const gData = {
           "Интеграция frontend c backend",
         ],
       },
-      // {
-      //   title: 'В разные годы в разных компаниях',
-      //   site: '',
-      //   position: 'Системный админитсратор, менджер ИТ',
-      //   date: '2007 - 2018',
-      //   list: [],
-      // },
     ],
   },
   education: {
@@ -139,8 +132,8 @@ function getWorkExperienceTerm(startDate = "03.01.2019") {
   const now = new Date();
   const start = new Date(startDate);
 
-  let year = now.getFullYear() - start.getFullYear();
-  let month = now.getMonth() - 1 - start.getMonth();
+  const year = now.getFullYear() - start.getFullYear();
+  const month = now.getMonth() - 1 - start.getMonth();
 
   if (year <= 0 && month < 0) return 0;
 
@@ -150,4 +143,5 @@ function getWorkExperienceTerm(startDate = "03.01.2019") {
     ? `${year}`
     : `${year}.${month}`;
 }
+
 export default gData;
