@@ -30,9 +30,9 @@ const gData = {
       "г.Алматы, Казахстан",
       `Опыт разработки ${getWorkExperienceTerm()}+ года`,
       { text: "GitHub", link: "https://github.com/VasliSaidmuradov" },
-      { text: "LinkedIn", link: "https://www.linkedin.com/in/vasli-saidmuradov/" },
+      { text: "LinkedIn", link: "https://www.linkedin.com/in/VasliSaidmuradov/" },
       { text: "Leetcode", link: "https://leetcode.com/VasliSaidmuradov/" },
-      { text: "Codewars", link: "https://www.codewars.com/users/Vasli" },
+      { text: "Codewars", link: "https://www.codewars.com/users/VasliSaidmuradov" },
     ],
   },
   hobby: {
