@@ -38,9 +38,10 @@ const gData = {
   hobby: {
     title: "",
     list: [
-      "⛷️ Учусь кататься на лыжах",
-      "🏓 Настольный теннис",
-      "🏃‍♂️ Бег (Trail running)",
+      "⛷️",
+      "🏓",
+      "🏃‍♂️",
+      "🥁",
     ], 
   },
   skills: {
@@ -89,7 +90,7 @@ const gData = {
         ],
       },
       {
-        title: "Brandstudio",
+        title: "Brand Studio",
         site: "https://brandstudio.kz/",
         position: "Frontend developer",
         date: "Апрель 2020 - Октябрь 2020",

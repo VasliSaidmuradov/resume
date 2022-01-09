@@ -41,13 +41,12 @@ class Aside extends React.Component {
         </div>
         <Title title='Обо мне' />
         <List data={gData.aboutMe} />
-        <Title title='Хобби' />
-        {/* <List data={gData.hobby} /> */}
+        {/* <Title title='Хобби' /> */}
         <div className='Content'>
           {
             gData.hobby.list.map((el, i) => {
               return(
-              <p key={i} className='Content__text'>{el}</p>
+              <span key={i} className='icon'>{el}</span>
               )
             })
           }
