@@ -7,8 +7,8 @@ import PersonImage from '../../assets/images/001.jpg'
 class Header extends React.Component {
   state = {
     person: {
-      firstName: 'Васли',
-      lastName: 'Саидмурадов',
+      firstName: 'Vasli',
+      lastName: 'Saidmuradov',
       position: 'FRONTEND DEVELOPER',
       getFullName() {
         return `${this.firstName} ${this.lastName}`

@@ -10,11 +10,11 @@ const MainContent = props => {
     <div className="MainContent">
       <Title title='Skills' />
       <List data={gData.skills} isTwoColumn={true} />
-      <Title title='Опыт работы' />
+      <Title title='Work experience' />
       <div>
         {gData.experience.list.map((el, i) => <List data={el} key={i} />)}
       </div>
-      <Title title='Образование' />
+      <Title title='Education' />
       <div>
         {gData.education.list.map((el, i) => <List data={el} key={i} />)}
       </div>

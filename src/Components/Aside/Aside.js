@@ -14,11 +14,11 @@ class Aside extends React.Component {
   render() {
     return (
       <div className="Aside">
-        <Title title='Цель' />
+        <Title title='Career objective' />
         <div className='Content'>
           {gData.goals.map((goal, i) => <p className='Content__text' key={i}>{goal}</p>)}
         </div>
-        <Title title='Контакты' />
+        <Title title='Contacts' />
         <div className='Content'>
           {
             gData.contacts.map((contact, i) => {
@@ -39,7 +39,7 @@ class Aside extends React.Component {
             })
           }
         </div>
-        <Title title='Обо мне' />
+        <Title title='About' />
         <List data={gData.aboutMe} />
         {/* <Title title='Хобби' /> */}
         <div className='Content'>
