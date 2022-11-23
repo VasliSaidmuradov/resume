@@ -75,7 +75,7 @@ const gData = {
       {
         title: "Creative",
         site: "https://crtweb.ru/",
-        position: "Frontend developer",
+        position: "Pre-middle Frontend developer",
         date: "October 2020 - June 2021",
         list: [
           "Together with the team, we developed a section of a large platform for searching and posting vacancies;",
