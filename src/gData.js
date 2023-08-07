@@ -62,10 +62,19 @@ const gData = {
     title: "",
     list: [
       {
+        title: "Uzum",
+        site: "https://uzum.com/",
+        position: "Frontend developer",
+        date: "June 2023 - current",
+        list: [
+          "We are developing an Internet Banking system for b2b/legal entities",
+        ],
+      },
+      {
         title: "Kaspi.kz",
         site: "https://kaspi.kz/",
         position: "Frontend developer",
-        date: "June 2021 - current",
+        date: "June 2021 - June 2023",
         list: [
           "With my team, we created a project for online partners who trade in the Kaspi store. They can create/edit/start/pause advertising campaigns and advertise their products in the kaspi store;",
           "We have created an internal tool (AWP - automated workplace) for bank managers to create and launch promotions for partners and customers of the store (marketplace) on Kaspi in a couple of clicks;",
