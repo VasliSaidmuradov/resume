@@ -1,3 +1,3 @@
 ## My personal site |resume|
 
-here [vaslisaid.netlify.app](https://vaslisaid.netlify.app/)
+here [vasli.netlify.app](https://vasli.netlify.app/)
