@@ -4,7 +4,6 @@ import Aside from './Components/Aside/Aside'
 import './App.scss';
 import MainContent from './Components/MainContent/MainContent';
 
-
 function App(props) {
   return (
     <div className="App">
